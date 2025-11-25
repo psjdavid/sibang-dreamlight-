@@ -1,0 +1,48 @@
+name: dreamlight
+description: AI 기반 스마트 알람 앱 - 드림라이트
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Material Design
+  cupertino_icons: ^1.0.6
+
+  # 오디오 녹음 (ASLEEP API용)
+  flutter_sound: ^9.4.12
+
+  # 권한 관리
+  permission_handler: ^11.3.0
+
+  # HTTP 통신 (ASLEEP API)
+  http: ^1.2.1
+
+  # 파일 시스템
+  path_provider: ^2.1.2
+
+  # 차트 & 그래프
+  fl_chart: ^0.66.2
+
+  # 상태 관리 (optional)
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 앱 아이콘 & 폰트 설정 (optional)
+  # assets:
+  #   - assets/images/
+  # fonts:
+  #   - family: Pretendard
+  #     fonts:
+  #       - asset: fonts/Pretendard-Regular.ttf
